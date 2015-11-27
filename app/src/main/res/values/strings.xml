@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PetApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Menú Principal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_logout">Cerrar Sesion</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register_account">Registrar Cuenta Nueva</string>
+    <string name="petType_prompt">Tipo de Mascota</string>
+    <string-array name="pets_array">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Caballo</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="actividadType_prompt">Tipo de Evento</string>
+    <string-array name="actividad_array">
+        <item>Baño</item>
+        <item>Cita</item>
+        <item>Vacunas</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="actividadAlerta_prompt">Alerta</string>
+    <string-array name="alerta_array">
+        <item>Sin alerta</item>
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>3 dias</item>
+    </string-array>
+
+</resources>

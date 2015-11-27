@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_add_pet" android:icon="@android:drawable/ic_menu_add"
+            android:title="Añadir Mascota" />
+        <item android:id="@+id/nav_profile_pet" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Perfil Mascota(s)" />
+        <item android:id="@+id/nav_send_sms" android:icon="@android:drawable/ic_menu_send"
+            android:title="Enviar SMS" />
+        <item android:id="@+id/nav_all_sms" android:icon="@drawable/ic_email"
+            android:title="Buzón Entrada" />
+        <item android:id="@+id/nav_setting" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Ajustes" />
+    </group>
+
+    <item android:title="Planificar Actividades">
+        <menu>
+            <item android:id="@+id/nav_activities" android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Calendario" />
+            <item android:id="@+id/nav_new_activity" android:icon="@drawable/ic_calendar_plus"
+                android:title="Registrar Nueva" />
+        </menu>
+    </item>
+
+</menu>
